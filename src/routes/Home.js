@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero";
 import Informacion from "../components/Informacion";
+import Modelo from "../components/Modelo";
 
 
 function Home (){
@@ -16,6 +17,7 @@ function Home (){
         btnClass = "show"
         />
         <Informacion/>
+        <Modelo/>
         </>
     )
 }
