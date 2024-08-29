@@ -2,6 +2,7 @@ import { Component } from "react";
 import "./Navbar.css";
 import { MenuItems } from "./MenuItems";
 import {Link} from "react-router-dom";
+import Digibootcamp from "../assets/Digiboocamp.svg"
 
 class Navbar extends Component{
     state = {cliked: false};
@@ -33,8 +34,8 @@ class Navbar extends Component{
                         )
                     })}
 
-                    <button>Iniciar Sesión</button>
-                    <button>Registrarse</button>
+                    <button className="btnSignup">Iniciar Sesión</button>
+                    <button className="btnSingin">Registrarse</button>
                     
                 </ul>
             </nav>

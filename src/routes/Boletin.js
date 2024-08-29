@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import BoletinForm from "../components/BoletinForm";
 
 function Boletin (){
     return (
@@ -11,6 +12,7 @@ function Boletin (){
         title = "Boletin"
         btnClass = "hide"
         />
+        <BoletinForm/>
         </>
     )
 }

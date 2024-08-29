@@ -1,5 +1,5 @@
 .informacion {
-    margin: 4rem 6rem;
+    margin: 8rem 6rem;
 }
 
 .informacion h1 {
@@ -7,11 +7,16 @@
 
 }
 
+.informacion p {
+    color: #575757;
+}
+
+
 .first-des {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 4.5rem;
+    margin-top: 7.5rem;
 }
 
 .first-des-reverse {
@@ -26,6 +31,12 @@
     width: 45%;
     text-align: start;
     font-size: 1.1rem;
+
+}
+
+.des-text p {
+    font-size: 1.8rem;
+    color: #575757;
 }
 
 .image {
@@ -56,6 +67,11 @@
         margin: 4rem 2rem;
     }
 
+    .informacion h1 {
+        font-size: 2.5rem;
+    
+    }
+
     .first-des{
         display: flex;
         flex-direction: column-reverse;
@@ -70,6 +86,14 @@
 
     .des-text {
         width: 100%;
+    }
+
+    .des-text h1 {
+        font-size: 2rem;
+    }
+
+    .des-text p {
+        font-size: 1.2rem;
     }
 
     .image {

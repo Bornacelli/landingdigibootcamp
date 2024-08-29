@@ -10,21 +10,21 @@ export const MenuItems = [
         title : "Campamentos",
         url : "/campamentos",
         cName : "nav-links",
-        icon : "fa-solid fa-house"
+        icon : "fa-solid fa-mountain"
     },
 
     {
         title : "Bootcamps",
         url : "/bootcamps",
         cName : "nav-links",
-        icon : "fa-solid fa-house"
+        icon : "fa-solid fa-computer"
     },
 
     {
         title : "Boletin",
         url : "/boletin",
         cName : "nav-links",
-        icon : "fa-solid fa-house"
+        icon : "fa-solid fa-address-book"
     },
 
     {

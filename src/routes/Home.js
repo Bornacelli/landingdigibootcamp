@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar"
 import Hero from "../components/Hero";
 import Informacion from "../components/Informacion";
 import Modelo from "../components/Modelo";
+import Footer from "../components/Footer";
 
 
 function Home (){
@@ -18,6 +19,7 @@ function Home (){
         />
         <Informacion/>
         <Modelo/>
+        <Footer/>
         </>
     )
 }
