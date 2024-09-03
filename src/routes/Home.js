@@ -3,6 +3,8 @@ import Hero from "../components/Hero";
 import Informacion from "../components/Informacion";
 import Modelo from "../components/Modelo";
 import Footer from "../components/Footer";
+import Video from "../components/Video";
+import Tecnologia from "../components/Tecnologia";
 
 
 function Home (){
@@ -18,7 +20,9 @@ function Home (){
         btnClass = "show"
         />
         <Informacion/>
+        <Video/>
         <Modelo/>
+        <Tecnologia/>
         <Footer/>
         </>
     )

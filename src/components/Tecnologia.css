@@ -1,0 +1,55 @@
+/* styles.css */
+.container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 100%;
+    height: 70vh;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .niveles-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .nivel-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nivel-card h3 {
+    font-size: 1.5em;
+    color: #2c3e50;
+  }
+  
+  .nivel-card p {
+    font-size: 0.9em;
+    color: #34495e;
+  }
+  
+  .nivel-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nivel-card li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nivel-card img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }

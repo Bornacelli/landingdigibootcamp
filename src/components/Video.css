@@ -1,0 +1,79 @@
+
+.material-unico-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .material-unico-container h2 {
+    font-size: 3rem;
+    color: #333;
+
+  }
+  
+  .material-unico-container p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .cta-banner {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    margin: 20px auto;
+  }
+  
+  .cta-banner h3 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+  }
+  
+  .cta-banner .highlight {
+    font-weight: 600; 
+  }
+  
+  .cta-banner p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #f9f9f9;
+  }
+  
+  .youtube-button {
+    background-color: white;
+    color: #181717;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .youtube-button:hover {
+    background-color: #e60000;
+    color: #fff;
+  }
+
+  @media screen and (max-width:850px) {
+
+    .youtube-button {
+        display: block;
+        margin: auto;
+      }
+
+      .material-unico-container {
+        height: 90vh;
+
+      }
+      
+}
+
