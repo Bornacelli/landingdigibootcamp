@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Bornacelli/landingdigibootcamp.git/static/css/main.c825754f.css",
+    "main.js": "/Bornacelli/landingdigibootcamp.git/static/js/main.126e8913.js",
+    "static/js/453.f3ecd557.chunk.js": "/Bornacelli/landingdigibootcamp.git/static/js/453.f3ecd557.chunk.js",
+    "static/media/Digiboocamp.svg": "/Bornacelli/landingdigibootcamp.git/static/media/Digiboocamp.69ba61aee4af4f3841a70c0a8c7865de.svg",
+    "index.html": "/Bornacelli/landingdigibootcamp.git/index.html",
+    "main.c825754f.css.map": "/Bornacelli/landingdigibootcamp.git/static/css/main.c825754f.css.map",
+    "main.126e8913.js.map": "/Bornacelli/landingdigibootcamp.git/static/js/main.126e8913.js.map",
+    "453.f3ecd557.chunk.js.map": "/Bornacelli/landingdigibootcamp.git/static/js/453.f3ecd557.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c825754f.css",
+    "static/js/main.126e8913.js"
+  ]
+}
