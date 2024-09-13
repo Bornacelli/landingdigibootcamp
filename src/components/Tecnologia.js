@@ -1,6 +1,7 @@
 
 import TecnologiaData from './TecnologiaData';
 import './Tecnologia.css'
+import angular from '/assets/logosTecnologia/angular.jpg'
 
 const Tecnologia = () => {
   const niveles = [
@@ -8,35 +9,35 @@ const Tecnologia = () => {
       title: 'Principiante',
       description: 'Curso de Programación desde 0 Gratis',
       courses: [
-        { name: 'Introducción a la programación', icon: 'ruta-del-icono' },
-        { name: 'HTML y CSS', icon: 'ruta-del-icono' },
-        { name: 'JavaScript', icon: 'ruta-del-icono' },
+        { name: 'Introducción a la programación', icon: '' },
+        { name: 'HTML y CSS', icon: '' },
+        { name: 'JavaScript', icon: '' },
       ],
     },
     {
       title: 'Front-End',
       description: 'Curso de Front-End Gratis',
       courses: [
-        { name: 'React', icon: 'ruta-del-icono' },
-        { name: 'Angular', icon: 'ruta-del-icono' },
+        { name: 'React', icon: '' },
+        { name: 'Angular', icon: '' },
       ],
     },
     {
       title: 'Back-End',
       description: 'Curso de Back-End Gratis',
       courses: [
-        { name: 'Php', icon: 'ruta-del-icono' },
-        { name: 'Python', icon: 'ruta-del-icono' },
-        { name: 'Java', icon: 'ruta-del-icono' },
-        { name: 'C#', icon: 'ruta-del-icono' },
+        { name: 'Php', icon: '' },
+        { name: 'Python', icon: '' },
+        { name: 'Java', icon: '' },
+        { name: 'C#', icon: '' },
       ],
     },
     {
       title: 'FullStack',
       description: 'Curso de FullStack Gratis',
       courses: [
-        { name: 'Front + Back', icon: 'ruta-del-icono' },
-        { name: 'MERN', icon: 'ruta-del-icono' },
+        { name: 'Front + Back', icon: '' },
+        { name: 'MERN', icon: '' },
       ],
     },
   ];

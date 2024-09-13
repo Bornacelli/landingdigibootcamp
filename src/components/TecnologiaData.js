@@ -9,7 +9,8 @@ const TecnologiaData = ({ title, description, courses }) => {
       <ul>
         {courses.map((course, index) => (
           <li key={index}>
-            {course.icon && <img src={course.icon} alt={course.name} />} {course.name}
+             <i className={course.icon}></i>
+            {course.name}
           </li>
         ))}
       </ul>
